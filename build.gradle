@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'jacoco'
+    id "org.sonarqube" version "3.1.1"
 }
 
 group 'nl.avans'
@@ -28,4 +29,15 @@ test {
 
 jacocoTestReport {
     dependsOn test // tests are required to run before generating the report
+    reports {
+        xml.enabled true
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "Marc-JB_DevOps"
+        property "sonar.organization", "marc-jb"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
 }
