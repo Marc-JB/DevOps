@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'jacoco'
+    id "org.sonarqube" version "3.1.1"
 }
 
 group 'nl.avans'
@@ -28,4 +29,10 @@ test {
 
 jacocoTestReport {
     dependsOn test // tests are required to run before generating the report
+}
+
+sonarqube {
+    properties {
+        property "sonar.host.url", "https://sonarqube.avans-informatica-breda.nl"
+    }
 }
