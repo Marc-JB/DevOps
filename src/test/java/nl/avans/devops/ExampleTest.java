@@ -3,9 +3,9 @@ package nl.avans.devops;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ExampleTest {
+class ExampleTest {
     @Test
-    public void exampleUnitTest() {
+    void exampleUnitTest() {
         // Arrange
         boolean myBool = true;
 
