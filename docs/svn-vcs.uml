@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="155.3574415584415" y="188.0">nl.avans.devops.code.vcs.subversion.SubversionCommit</node>
+    <node x="426.38244155844154" y="232.5">nl.avans.devops.code.vcs.Branch</node>
+    <node x="580.311012987013" y="502.5">nl.avans.devops.code.vcs.VersionControlSystem</node>
+    <node x="144.0003636363636" y="0.0">nl.avans.devops.code.vcs.Commit</node>
+    <node x="293.38244155844154" y="447.0">nl.avans.devops.code.vcs.subversion.SubversionBranch</node>
+    <node x="67.38244155844154" y="458.0">nl.avans.devops.code.vcs.subversion.SubversionTrunk</node>
+    <node x="25.043999999999983" y="750.0">nl.avans.devops.code.vcs.subversion.SubversionTrunkAdapter</node>
+    <node x="179.94041125541122" y="1052.0">nl.avans.devops.code.vcs.subversion.SubversionVCS</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionVCS" target="nl.avans.devops.code.vcs.Commit">
+      <point x="-75.0" y="-105.0" />
+      <point x="192.44041125541122" y="1032.0" />
+      <point x="0.0" y="1032.0" />
+      <point x="0.0" y="128.0" />
+      <point x="152.1821818181818" y="128.0" />
+      <point x="-81.81818181818181" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.Branch" target="nl.avans.devops.code.vcs.Commit">
+      <point x="0.0" y="-60.0" />
+      <point x="529.3824415584415" y="128.0" />
+      <point x="299.45490909090904" y="128.0" />
+      <point x="65.45454545454544" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionVCS" target="nl.avans.devops.code.vcs.subversion.SubversionTrunkAdapter">
+      <point x="-50.0" y="-105.0" />
+      <point x="217.44041125541122" y="1022.0" />
+      <point x="94.04399999999998" y="1022.0" />
+      <point x="-69.0" y="116.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionBranch" target="nl.avans.devops.code.vcs.subversion.SubversionCommit">
+      <point x="-92.80000000000007" y="-126.5" />
+      <point x="316.5824415584415" y="417.0" />
+      <point x="306.8574415584415" y="417.0" />
+      <point x="50.5" y="104.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionTrunk" target="nl.avans.devops.code.vcs.subversion.SubversionCommit">
+      <point x="25.75" y="-115.5" />
+      <point x="196.13244155844154" y="427.0" />
+      <point x="205.8574415584415" y="427.0" />
+      <point x="-50.5" y="104.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.VersionControlSystem" target="nl.avans.devops.code.vcs.Commit">
+      <point x="50.0" y="-71.0" />
+      <point x="730.311012987013" y="118.0" />
+      <point x="315.8185454545454" y="118.0" />
+      <point x="81.81818181818181" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionVCS" target="nl.avans.devops.code.vcs.Branch">
+      <point x="50.0" y="-105.0" />
+      <point x="317.4404112554112" y="1022.0" />
+      <point x="569.811012987013" y="1022.0" />
+      <point x="569.811012987013" y="427.0" />
+      <point x="588.2395844155844" y="427.0" />
+      <point x="58.85714285714289" y="60.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionBranch" target="nl.avans.devops.code.vcs.Branch">
+      <point x="46.39999999999998" y="-126.5" />
+      <point x="455.7824415584415" y="427.0" />
+      <point x="470.5252987012987" y="427.0" />
+      <point x="-58.85714285714283" y="60.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionTrunk" target="nl.avans.devops.code.vcs.Branch">
+      <point x="77.25" y="-115.5" />
+      <point x="247.63244155844154" y="427.0" />
+      <point x="441.09672727272726" y="427.0" />
+      <point x="-88.28571428571428" y="60.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionCommit" target="nl.avans.devops.code.vcs.Commit">
+      <point x="67.33333333333331" y="-104.5" />
+      <point x="323.6907748917748" y="158.0" />
+      <point x="250.36399999999998" y="158.0" />
+      <point x="16.363636363636374" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionTrunkAdapter" target="nl.avans.devops.code.vcs.subversion.SubversionTrunk">
+      <point x="-34.5" y="-116.0" />
+      <point x="128.54399999999998" y="730.0" />
+      <point x="101.71577489177486" y="730.0" />
+      <point x="-68.66666666666667" y="115.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionVCS" target="nl.avans.devops.code.vcs.subversion.SubversionTrunk">
+      <point x="0.0" y="-105.0" />
+      <point x="267.4404112554112" y="1002.0" />
+      <point x="311.544" y="1002.0" />
+      <point x="311.544" y="720.0" />
+      <point x="239.04910822510823" y="720.0" />
+      <point x="68.66666666666669" y="115.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionTrunkAdapter" target="nl.avans.devops.code.vcs.Commit">
+      <point x="-103.5" y="-116.0" />
+      <point x="59.54399999999998" y="730.0" />
+      <point x="33.35707792207785" y="730.0" />
+      <point x="33.35707792207785" y="138.0" />
+      <point x="168.54581818181816" y="138.0" />
+      <point x="-65.45454545454544" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionVCS" target="nl.avans.devops.code.vcs.VersionControlSystem">
+      <point x="75.0" y="-105.0" />
+      <point x="342.4404112554112" y="1032.0" />
+      <point x="680.311012987013" y="1032.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionTrunk" target="nl.avans.devops.code.vcs.Commit">
+      <point x="-77.25" y="-115.5" />
+      <point x="93.13244155844154" y="427.0" />
+      <point x="86.27536363636364" y="427.0" />
+      <point x="86.27536363636364" y="148.0" />
+      <point x="184.9094545454545" y="148.0" />
+      <point x="-49.09090909090909" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionBranch" target="nl.avans.devops.code.vcs.Commit">
+      <point x="-46.400000000000034" y="-126.5" />
+      <point x="362.9824415584415" y="417.0" />
+      <point x="387.3523333333333" y="417.0" />
+      <point x="387.3523333333333" y="148.0" />
+      <point x="266.7276363636363" y="148.0" />
+      <point x="32.72727272727269" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.subversion.SubversionTrunkAdapter" target="nl.avans.devops.code.vcs.Branch">
+      <point x="103.5" y="-116.0" />
+      <point x="266.544" y="730.0" />
+      <point x="547.811012987013" y="730.0" />
+      <point x="547.811012987013" y="427.0" />
+      <point x="529.3824415584415" y="427.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.VersionControlSystem" target="nl.avans.devops.code.vcs.Branch">
+      <point x="-50.0" y="-71.0" />
+      <point x="630.311012987013" y="427.0" />
+      <point x="617.6681558441558" y="427.0" />
+      <point x="88.28571428571422" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5421216848673946" x="390.5" y="631.0" />
+  <SelectedNodes>
+    <node>nl.avans.devops.code.vcs.VersionControlSystem</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

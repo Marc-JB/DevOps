@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="136.5">nl.avans.devops.code.vcs.VersionControlSystem</node>
+    <node x="305.9733333333333" y="0.0">nl.avans.devops.code.fs.FileSystemItem</node>
+    <node x="472.0" y="136.0">nl.avans.devops.code.fs.File</node>
+    <node x="93.80333333333337" y="362.0">nl.avans.devops.code.CodeRepository</node>
+    <node x="220.0" y="103.0">nl.avans.devops.code.fs.Directory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.avans.devops.code.CodeRepository" target="nl.avans.devops.code.fs.Directory">
+      <point x="-5.6843418860808015E-14" y="-71.5" />
+      <point x="250.8033333333333" y="337.0" />
+      <point x="258.66666666666663" y="337.0" />
+      <point x="-77.33333333333333" y="104.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.CodeRepository" target="nl.avans.devops.code.vcs.VersionControlSystem">
+      <point x="-125.60000000000005" y="-71.5" />
+      <point x="125.20333333333332" y="337.0" />
+      <point x="50.0" y="337.0" />
+      <point x="-50.0" y="71.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.fs.Directory" target="nl.avans.devops.code.fs.FileSystemItem">
+      <point x="-77.33333333333331" y="-104.5" />
+      <point x="258.6666666666667" y="78.0" />
+      <point x="325.2233333333333" y="78.0" />
+      <point x="-57.75" y="26.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.fs.File" target="nl.avans.devops.code.fs.FileSystemItem">
+      <point x="0.0" y="-71.5" />
+      <point x="545.0" y="78.0" />
+      <point x="440.7233333333333" y="78.0" />
+      <point x="57.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="309.0" y="252.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

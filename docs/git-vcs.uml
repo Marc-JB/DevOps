@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="358.27179487179484" y="158.0">nl.avans.devops.code.vcs.git.GitCommit</node>
+    <node x="120.27179487179487" y="202.5">nl.avans.devops.code.vcs.Branch</node>
+    <node x="0.0" y="472.5">nl.avans.devops.code.vcs.VersionControlSystem</node>
+    <node x="165.0" y="730.0">nl.avans.devops.code.vcs.git.GitVCS</node>
+    <node x="272.5884615384615" y="0.0">nl.avans.devops.code.vcs.Commit</node>
+    <node x="242.88846153846154" y="417.0">nl.avans.devops.code.vcs.git.GitBranch</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.avans.devops.code.vcs.Branch" target="nl.avans.devops.code.vcs.Commit">
+      <point x="2.8421709430404007E-14" y="-60.0" />
+      <point x="223.2717948717949" y="138.0" />
+      <point x="306.3384615384615" y="138.0" />
+      <point x="-56.25" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.VersionControlSystem" target="nl.avans.devops.code.vcs.Commit">
+      <point x="-50.0" y="-71.0" />
+      <point x="50.0" y="128.0" />
+      <point x="283.8384615384615" y="128.0" />
+      <point x="-78.75" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitBranch" target="nl.avans.devops.code.vcs.Commit">
+      <point x="41.19999999999999" y="-126.5" />
+      <point x="387.0884615384615" y="387.0" />
+      <point x="347.77179487179484" y="387.0" />
+      <point x="347.77179487179484" y="138.0" />
+      <point x="351.3384615384615" y="138.0" />
+      <point x="-11.25" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitVCS" target="nl.avans.devops.code.vcs.VersionControlSystem">
+      <point x="-72.91666666666671" y="-116.0" />
+      <point x="179.5833333333333" y="710.0" />
+      <point x="100.0" y="710.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitBranch" target="nl.avans.devops.code.vcs.git.GitCommit">
+      <point x="82.39999999999998" y="-126.5" />
+      <point x="428.28846153846155" y="397.0" />
+      <point x="448.27179487179484" y="397.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitCommit" target="nl.avans.devops.code.vcs.Commit">
+      <point x="59.99999999999994" y="-104.5" />
+      <point x="508.2717948717948" y="128.0" />
+      <point x="418.8384615384615" y="128.0" />
+      <point x="56.25" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitVCS" target="nl.avans.devops.code.vcs.Commit">
+      <point x="72.91666666666669" y="-116.0" />
+      <point x="325.4166666666667" y="710.0" />
+      <point x="548.7717948717948" y="710.0" />
+      <point x="548.7717948717948" y="118.0" />
+      <point x="441.3384615384615" y="118.0" />
+      <point x="78.75" y="49.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitVCS" target="nl.avans.devops.code.vcs.git.GitBranch">
+      <point x="43.75" y="-116.0" />
+      <point x="296.25" y="700.0" />
+      <point x="397.38846153846157" y="700.0" />
+      <point x="51.5" y="126.5" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitVCS" target="nl.avans.devops.code.vcs.Branch">
+      <point x="-14.583333333333343" y="-116.0" />
+      <point x="237.91666666666666" y="710.0" />
+      <point x="221.49999999999997" y="710.0" />
+      <point x="221.49999999999997" y="397.0" />
+      <point x="223.27179487179487" y="397.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.git.GitBranch" target="nl.avans.devops.code.vcs.Branch">
+      <point x="-41.19999999999999" y="-126.5" />
+      <point x="82.4" y="60.0" />
+    </edge>
+    <edge source="nl.avans.devops.code.vcs.VersionControlSystem" target="nl.avans.devops.code.vcs.Branch">
+      <point x="50.0" y="-71.0" />
+      <point x="150.0" y="397.0" />
+      <point x="140.87179487179486" y="397.0" />
+      <point x="-82.4" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7077393075356415" x="274.5" y="481.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

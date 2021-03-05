@@ -8,6 +8,11 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
 import java.util.Random;
 
+/**
+ * In SVN, the main branch is a trunk.
+ * The trunk can't have a custom name, so it doesn't match the branch interface.
+ * This adapter makes sure we can use the trunk just like any other branch.
+ */
 class SubversionTrunkAdapter implements Branch {
     private final @NotNull SubversionTrunk trunk;
 
