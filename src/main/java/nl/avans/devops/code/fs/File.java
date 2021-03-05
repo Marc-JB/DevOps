@@ -2,7 +2,7 @@ package nl.avans.devops.code.fs;
 
 import org.jetbrains.annotations.NotNull;
 
-public class File extends FileSystemItem {
+public class File implements FileSystemItem {
     private @NotNull String name;
     private @NotNull String contents;
 

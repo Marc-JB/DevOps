@@ -9,8 +9,8 @@ import org.jetbrains.annotations.NotNull;
  * @see Directory
  * @see File
  */
-public abstract class FileSystemItem {
-    public abstract @NotNull String getName();
+public interface FileSystemItem {
+    @NotNull String getName();
 
-    public abstract void setName(final @NotNull String name);
+    void setName(final @NotNull String name);
 }

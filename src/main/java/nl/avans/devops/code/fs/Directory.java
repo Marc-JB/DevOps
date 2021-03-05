@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class Directory extends FileSystemItem implements Iterable<@NotNull FileSystemItem> {
+public class Directory implements FileSystemItem, Iterable<@NotNull FileSystemItem> {
     private @NotNull String name;
     private final @NotNull Set<@NotNull FileSystemItem> children;
 
