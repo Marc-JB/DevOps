@@ -5,8 +5,8 @@ import nl.avans.devops.code.vcs.Commit;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.security.SecureRandom;
 import java.util.Objects;
-import java.util.Random;
 
 public class SubversionCommit implements Commit {
     private final @Nullable Commit parent;
@@ -15,12 +15,12 @@ public class SubversionCommit implements Commit {
 
     public SubversionCommit() {
         parent = null;
-        id = new Random().nextLong();
+        id = new SecureRandom().nextLong();
     }
 
     public SubversionCommit(final @NotNull Commit parent) {
         this.parent = parent;
-        id = new Random().nextLong();
+        id = new SecureRandom().nextLong();
     }
 
     @Override

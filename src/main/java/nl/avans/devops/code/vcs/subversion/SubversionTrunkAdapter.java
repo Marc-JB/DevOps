@@ -6,7 +6,6 @@ import nl.avans.devops.code.vcs.Commit;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
-import java.util.Random;
 
 /**
  * In SVN, the main branch is a trunk.

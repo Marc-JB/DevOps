@@ -5,8 +5,8 @@ import nl.avans.devops.code.vcs.Branch;
 import nl.avans.devops.code.vcs.Commit;
 import org.jetbrains.annotations.NotNull;
 
+import java.security.SecureRandom;
 import java.util.Objects;
-import java.util.Random;
 
 public class SubversionTrunk {
     private @NotNull Commit head;
@@ -23,7 +23,7 @@ public class SubversionTrunk {
 
     protected SubversionTrunk(final @NotNull Commit base) {
         this.head = base;
-        id = new Random().nextLong();
+        id = new SecureRandom().nextLong();
     }
 
     public long getId() {
