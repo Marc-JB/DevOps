@@ -34,7 +34,9 @@ public class GitCommit implements Commit {
     }
 
     @Override
-    public void applyDiff(@NotNull Directory directory) {}
+    public void applyDiff(@NotNull Directory directory) {
+        System.out.println("Changing HEAD to commit " + id);
+    }
 
     @Override
     public boolean equals(Object o) {
