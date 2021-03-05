@@ -32,10 +32,9 @@ public class GitVCS implements VersionControlSystem {
         return branches;
     }
 
-    @Override
-    public @NotNull Branch getDefaultBranch() {
+    private @NotNull Branch getBranchById(final long id) {
         for(final @NotNull var branch : branches) {
-            if (branch.getId() == defaultBranchId) {
+            if (branch.getId() == id) {
                 return branch;
             }
         }
@@ -44,14 +43,13 @@ public class GitVCS implements VersionControlSystem {
     }
 
     @Override
-    public @NotNull Branch getCheckedOutBranch() {
-        for(final @NotNull var branch : branches) {
-            if (branch.getId() == checkedOutBranch) {
-                return branch;
-            }
-        }
+    public @NotNull Branch getDefaultBranch() {
+        return getBranchById(defaultBranchId);
+    }
 
-        throw new IllegalStateException("There's no branch with default branch id of " + defaultBranchId);
+    @Override
+    public @NotNull Branch getCheckedOutBranch() {
+        return getBranchById(checkedOutBranch);
     }
 
     @Override
